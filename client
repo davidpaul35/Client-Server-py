@@ -31,7 +31,6 @@ def main():
       if command.upper() == "HELP":
          print("""create <name>.txt - to create a file
          delete <name>.txt - to delete a file
-         edit <name.txt> - to edit the file
          cat <name.txt> - to read the file
          exit - to exit from the program""")
       elif command.upper() == "EXIT":
